@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class TankShooting : MonoBehaviour
 {
-    public GameObject bulletPrefab;  // 砲彈預製體
-    public Transform firePoint;      // 砲彈發射位置
-    public float bulletSpeed = 15f;  // 砲彈速度
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float bulletSpeed = 15f;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // 按下空白鍵時開火
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Shoot();
         }
@@ -27,11 +27,11 @@ public class TankShooting : MonoBehaviour
 
         if (rb != null)
         {
-            rb.linearVelocity = firePoint.forward * bulletSpeed; // 讓砲彈向前飛行
+            rb.linearVelocity = firePoint.forward * bulletSpeed;
         }
         else
         {
-            Debug.LogError("⚠️ bulletPrefab 需要有 Rigidbody！");
+            Debug.LogError("⚠️ bulletPrefab need Rigidbody！");
         }
     }
 }

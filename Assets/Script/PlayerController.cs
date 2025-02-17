@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // WASD 控制坦克底盤移動
         float moveInput = Input.GetAxis("Vertical") * moveSpeed;
         float turnInput = Input.GetAxis("Horizontal") * rotateSpeed * Time.fixedDeltaTime;
 
