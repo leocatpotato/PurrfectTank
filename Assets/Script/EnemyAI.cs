@@ -4,22 +4,32 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     public Transform player;
+    public float detectionRange = 15f;
     private NavMeshAgent agent;
+    private bool playerDetected = false;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        if (player == null)
-        {
-            player = GameObject.FindWithTag("Player").transform;
-        }
     }
 
     void Update()
     {
-        if (player != null)
+        float distanceToPlayer = Vector3.Distance(player.position, transform.position);
+
+        if (!playerDetected && distanceToPlayer <= detectionRange)
+        {
+            playerDetected = true;
+        }
+
+        if (playerDetected)
         {
             agent.SetDestination(player.position);
         }
+    }
+
+    public bool IsPlayerDetected()
+    {
+        return playerDetected;
     }
 }

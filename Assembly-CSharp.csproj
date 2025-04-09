@@ -100,10 +100,10 @@
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_CS.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Turret_Control_CS.cs" />
-    <Compile Include="Assets\Script\EnemyShotting.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Scroll_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Game_Controller_CS.cs" />
     <Compile Include="Assets\Script\PlayerHealth.cs" />
+    <Compile Include="Assets\Script\EnemyShooting.cs" />
     <Compile Include="Assets\Script\EnemyHealth.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Break_Object_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Mobile_CS.cs" />

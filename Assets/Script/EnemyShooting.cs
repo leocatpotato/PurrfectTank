@@ -12,15 +12,20 @@ public class EnemyShooting : MonoBehaviour
     private Transform player;
     private AudioSource audioSource;
 
+    private EnemyAI enemyAI;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
         audioSource = gameObject.AddComponent<AudioSource>();
+        enemyAI = GetComponent<EnemyAI>();
     }
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null || enemyAI == null) return;
+
+        if (!enemyAI.IsPlayerDetected()) return;
 
         Vector3 targetDirection = player.position - transform.position;
         targetDirection.y = 0;

@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "F:\\UnityProject\\PurrfectTank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|f:\\unityproject\\purrfecttank\\assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|f:\\unityproject\\purrfecttank\\assets\\script\\enemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyshooting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|f:\\unityproject\\purrfecttank\\assets\\script\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|F:\\UnityProject\\PurrfectTank\\assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A14E5BD-A964-52C3-0F17-4F767B721CF5}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnemyShooting.cs",
+              "DocumentMoniker": "F:\\UnityProject\\PurrfectTank\\Assets\\Script\\EnemyShooting.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyShooting.cs",
+              "ToolTip": "F:\\UnityProject\\PurrfectTank\\Assets\\Script\\EnemyShooting.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyShooting.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:39:37.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "F:\\UnityProject\\PurrfectTank\\Assets\\Script\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyAI.cs",
+              "ToolTip": "F:\\UnityProject\\PurrfectTank\\Assets\\Script\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T23:34:05.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "F:\\UnityProject\\PurrfectTank\\Assets\\Script\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MainMenu.cs",
@@ -26,8 +60,7 @@
               "RelativeToolTip": "Assets\\Script\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T23:25:27.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T23:25:27.721Z"
             }
           ]
         }
