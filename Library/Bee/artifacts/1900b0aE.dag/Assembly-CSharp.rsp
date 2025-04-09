@@ -463,6 +463,7 @@
 "Assets/Script/EnemyBullet.cs"
 "Assets/Script/EnemyHealth.cs"
 "Assets/Script/EnemyShotting.cs"
+"Assets/Script/MainMenu.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerHealth.cs"
 "Assets/Script/TankShooting.cs"

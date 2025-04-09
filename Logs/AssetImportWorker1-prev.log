@@ -15,7 +15,7 @@ F:/UnityProject/PurrfectTank
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53581
+55724
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ F:/UnityProject/PurrfectTank
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10036]  Target information:
+Player connection [21592]  Target information:
 
-Player connection [10036]  * "[IP] 192.168.50.87 [Port] 0 [Flags] 2 [Guid] 402435165 [EditorId] 402435165 [Version] 1048832 [Id] WindowsEditor(7,LeoDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [21592]  * "[IP] 192.168.50.87 [Port] 0 [Flags] 2 [Guid] 313685922 [EditorId] 313685922 [Version] 1048832 [Id] WindowsEditor(7,LeoDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10036] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10036] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21592] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21592] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.38f1 (82314a941f2d)
 [Subsystems] Discovering subsystems at path F:/UnityEditor/6000.0.38f1/Editor/Data/Resources/UnitySubsystems
@@ -92,50 +92,50 @@ Initialize mono
 Mono path[0] = 'F:/UnityEditor/6000.0.38f1/Editor/Data/Managed'
 Mono path[1] = 'F:/UnityEditor/6000.0.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/UnityEditor/6000.0.38f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/UnityEditor/6000.0.38f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/UnityEditor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: F:/UnityEditor/6000.0.38f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: F:/UnityEditor/6000.0.38f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002903 seconds.
-- Loaded All Assemblies, in  0.228 seconds
+Registered in 0.002321 seconds.
+- Loaded All Assemblies, in  0.246 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1712 ms
+Android Extension - Scanning For ADB Devices 1703 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.927 seconds
-Domain Reload Profiling: 2155ms
-	BeginReloadAssembly (73ms)
+- Finished resetting the current domain, in  1.961 seconds
+Domain Reload Profiling: 2208ms
+	BeginReloadAssembly (76ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
+		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (100ms)
-		LoadAssemblies (73ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (98ms)
-			TypeCache.Refresh (97ms)
-				TypeCache.ScanAssembly (89ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (113ms)
+				TypeCache.ScanAssembly (103ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (1927ms)
+	FinalizeReload (1961ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1909ms)
+		SetupLoadedEditorAssemblies (1937ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1775ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (68ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			InitializePlatformSupportModulesInManaged (1771ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,59 +144,111 @@ Domain Reload Profiling: 2155ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.360 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.320 seconds
-Domain Reload Profiling: 680ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 863ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (213ms)
-		LoadAssemblies (136ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (235ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (101ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (102ms)
 				TypeCache.ScanAssembly (91ms)
-			BuildScriptInfoCaches (21ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (320ms)
+			BuildScriptInfoCaches (20ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (369ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (244ms)
+		SetupLoadedEditorAssemblies (285ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (1ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (179ms)
-			ProcessInitializeOnLoadMethodAttributes (13ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3828 unused Assets / (1.0 MB). Loaded Objects now: 4335.
-Memory consumption went from 93.7 MB to 92.7 MB.
-Total: 3.700200 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.491200 ms  DeleteObjects: 0.720900 ms)
+Unloading 3828 unused Assets / (0.7 MB). Loaded Objects now: 4338.
+Memory consumption went from 94.0 MB to 93.2 MB.
+Total: 3.410300 ms (FindLiveObjects: 0.316800 ms CreateObjectMapping: 0.138600 ms MarkObjects: 2.352500 ms  DeleteObjects: 0.601800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23574.806158 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(289c1b55c9541489481df5cc06664110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4960200e41d6987b56b3a9f727feaef9') in 0.0144994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+  Time since last request: 44702.052813 seconds.
+  path: Assets/Prefabs/EnemyBullet.prefab
+  artifactKey: Guid(0f93e0cddd14f0f4bbc004903d63ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemyBullet.prefab using Guid(0f93e0cddd14f0f4bbc004903d63ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '549b713bcb864e8ca674e633220e7e9e') in 0.0681179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
+========================================================================
+Received Import Request.
+  Time since last request: 249.907065 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png
+  artifactKey: Guid(e03098c57289953479b38f41112b9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Aim_Marker.png using Guid(e03098c57289953479b38f41112b9271) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ab06a80d5041167d052becac7476bb7') in 0.0267228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Pos_Marker.png
+  artifactKey: Guid(a285550f7b2bba244b9750b22ab2f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Pos_Marker.png using Guid(a285550f7b2bba244b9750b22ab2f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eb8042f8c725df36086ccb62db9c5a3') in 0.0091557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png
+  artifactKey: Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Sprites/Sprite_Button_01.png using Guid(275ff55f9b760a440bda5911b0f6d1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8474937dc3a5170cbb64dc7ec0c5d274') in 0.0092216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.487301 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Smoke.mat
+  artifactKey: Guid(e1c8fa91619d4e84494ded335096d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Particle_Smoke.mat using Guid(e1c8fa91619d4e84494ded335096d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8c1e971b37937806179e26cfa9597d3') in 0.0627446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg
+  artifactKey: Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/SE_Fire.ogg using Guid(98ee43f119dde354a9d69cbe815e5a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ff714c6f397fec5626adbb70fc08a3') in 0.0202673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.009591 seconds.
+  path: Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Wall(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
+  artifactKey: Guid(de032cb7c3be9cc43bc1fc77d4d3e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii_Tanks_Project (Free)/Others/Terrain/layer_Tex_Wall(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(de032cb7c3be9cc43bc1fc77d4d3e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1588682a42ad10a5b5d961cbec1c5675') in 0.0125758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
