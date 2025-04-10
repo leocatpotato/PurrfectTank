@@ -3,10 +3,14 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public float damage = 10f;
+    private bool hasHit = false;
     public GameObject explosionEffect;
 
     void OnCollisionEnter(Collision collision)
     {
+        if (hasHit) return;
+        hasHit = true;
+
         if (explosionEffect != null)
         {
             Instantiate(explosionEffect, transform.position, Quaternion.identity);
@@ -18,6 +22,7 @@ public class Bullet : MonoBehaviour
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(damage);
+                Debug.Log("Enemy took " + damage + " damage. Remaining HP: " + enemyHealth.health);
             }
         }
 

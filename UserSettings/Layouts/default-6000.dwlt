@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 145
+  controlID: 62
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -450,8 +450,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8a7c0000
-      m_LastClickedID: 0
+      m_SelectedIDs: de810000
+      m_LastClickedID: 33246
       m_ExpandedIDs: 22fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1029,9 +1029,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -48.814606, y: 0.7526821, z: -97.20679}
+    m_Target: {x: -0.52, y: 0.9249974, z: -35.140068}
     speed: 2
-    m_Value: {x: -48.814606, y: 0.7526821, z: -97.20679}
+    m_Value: {x: -0.52, y: 0.9249974, z: -35.140068}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1081,9 +1081,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.31162634, y: -0.052704915, z: 0.01730836, w: -0.948584}
   m_Size:
-    m_Target: 3.09244
+    m_Target: 1.3222872
     speed: 2
-    m_Value: 3.09244
+    m_Value: 1.3222872
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1250,15 +1250,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/Script
+  - Assets/Prefabs
   m_LastFoldersGridSize: 49
   m_LastProjectPath: F:\UnityProject\PurrfectTank
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 90830000
-    m_LastClickedID: 33680
+    m_SelectedIDs: 92830000
+    m_LastClickedID: 33682
     m_ExpandedIDs: 00000000208300002283000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1314,8 +1314,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8a7c0000
-    m_LastClickedInstanceID: 31882
+    m_SelectedInstanceIDs: 5a820000
+    m_LastClickedInstanceID: 33370
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000ce67000088800000226200002e6200004e610000286700006e6500001a670000e45d0000185d00009a5a00002a5a0000b2850000
     m_RenameOverlay:
@@ -1427,7 +1427,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 994.39996
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

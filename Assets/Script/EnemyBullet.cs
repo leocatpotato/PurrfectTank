@@ -12,7 +12,7 @@ public class EnemyBullet : MonoBehaviour
         PlayerHealth playerHealth = collision.gameObject.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(20f); 
+            playerHealth.TakeDamage(10f); 
         
         }
     }

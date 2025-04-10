@@ -202,9 +202,9 @@ Rigidbody:
   m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &144581906
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -412,6 +412,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1003,6 +1023,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281360739656457758, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3548513503413063857, guid: e38c6c27e213d1a41ad218fc51aa39d9,
         type: 3}
       propertyPath: m_Name
@@ -1027,6 +1052,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1301,6 +1346,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281360739656457758, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3548513503413063857, guid: e38c6c27e213d1a41ad218fc51aa39d9,
         type: 3}
       propertyPath: m_Name
@@ -1325,6 +1375,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1465,6 +1535,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281360739656457758, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3548513503413063857, guid: e38c6c27e213d1a41ad218fc51aa39d9,
         type: 3}
       propertyPath: m_Name
@@ -1489,6 +1564,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1700,6 +1795,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281360739656457758, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3548513503413063857, guid: e38c6c27e213d1a41ad218fc51aa39d9,
         type: 3}
       propertyPath: m_Name
@@ -1724,6 +1824,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1788,6 +1903,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1281360739656457758, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3548513503413063857, guid: e38c6c27e213d1a41ad218fc51aa39d9,
         type: 3}
       propertyPath: m_Name
@@ -1812,6 +1932,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312400617394667324, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: health
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 84
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415426681392245691, guid: e38c6c27e213d1a41ad218fc51aa39d9,
+        type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
