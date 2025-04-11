@@ -463,6 +463,7 @@
 "Assets/Script/EnemyBullet.cs"
 "Assets/Script/EnemyHealth.cs"
 "Assets/Script/EnemyShooting.cs"
+"Assets/Script/LevelManager.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/PlayerHealth.cs"

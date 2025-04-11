@@ -106,6 +106,7 @@
     <Compile Include="Assets\Script\EnemyShooting.cs" />
     <Compile Include="Assets\Script\EnemyHealth.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Break_Object_CS.cs" />
+    <Compile Include="Assets\Script\LevelManager.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Mobile_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_Input_00_Base_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_Input_01_Desktop_CS.cs" />
